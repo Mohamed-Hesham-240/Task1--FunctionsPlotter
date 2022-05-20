@@ -1,10 +1,12 @@
 # Task1--FunctionsPlotter
+### Please note that the test suites were uploaded after the deadline by exactly 2 hours and 10 minutes (20th of May at 05:10 PM)  due to some technical errors.
 - A GUI program that plots arbitrary user-defined functions
 - This project is implemented using QtCreate
 - Only the stated operations are implemented in this project ( +, -, *, ^, / , (, ) ).
 - Custom arithmetic expression evaluation class has been implemented to support only the required operations, not more, and not less.
 - Any other variable used in the expressoin other than 'x' results in a warning message, not even 'X'.
 - All spaces in the function expression are ignored.
+- GUI automated testing is done via Squish.
 - Examples:
   - A simple quadratic function.
     - ![](https://github.com/Mohamed-Hesham-240/Task1--FunctionsPlotter/blob/main/examples/valid%20quadratic.PNG)
