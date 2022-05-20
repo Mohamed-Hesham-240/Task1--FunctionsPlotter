@@ -1,2 +1,40 @@
 # Task1--FunctionsPlotter
-A GUI program that plots arbitrary user-defined functions
+- A GUI program that plots arbitrary user-defined functions
+- This project is implemented using QtCreate
+- Only the stated operations are implemented in this project ( +, -, *, ^, / , (, ) ).
+- Custom arithmetic expression evaluation class has been implemented to support only the required operations, not more, and not less.
+- Any other variable used in the expressoin other than 'x' results in a warning message, not even 'X'.
+- All spaces in the function expression are ignored.
+- Examples:
+  - A simple quadratic function.
+    - ![](https://github.com/Mohamed-Hesham-240/Task1--FunctionsPlotter/blob/main/examples/valid%20quadratic.PNG)
+  - Unkown symbol in the expression.
+    - ![](https://github.com/Mohamed-Hesham-240/Task1--FunctionsPlotter/blob/main/examples/unkown%20symbol.PNG)
+  - A random valid function.
+    - ![](https://github.com/Mohamed-Hesham-240/Task1--FunctionsPlotter/blob/main/examples/random.PNG)
+  - Unbalanced parentheses.
+    - ![](https://github.com/Mohamed-Hesham-240/Task1--FunctionsPlotter/blob/main/examples/parenth.PNG)
+  - Min value of x is greater than the max value.
+    - ![](https://github.com/Mohamed-Hesham-240/Task1--FunctionsPlotter/blob/main/examples/min%20greater%20than%20equal.PNG)
+  - Invalid min value of x.
+    - ![](https://github.com/Mohamed-Hesham-240/Task1--FunctionsPlotter/blob/main/examples/invalid%20min%20value.PNG)
+  - Invalid max value of x.
+    - ![](https://github.com/Mohamed-Hesham-240/Task1--FunctionsPlotter/blob/main/examples/invalid%20max%20value.PNG)
+  - Function = infinity.
+    - ![](https://github.com/Mohamed-Hesham-240/Task1--FunctionsPlotter/blob/main/examples/inf.PNG)
+  - Function = -infinity.
+    - ![](https://github.com/Mohamed-Hesham-240/Task1--FunctionsPlotter/blob/main/examples/-inf.PNG)
+  - Function is undefined.
+    - ![](https://github.com/Mohamed-Hesham-240/Task1--FunctionsPlotter/blob/main/examples/0%200.PNG)
+  - Function has spaces.
+    - ![](https://github.com/Mohamed-Hesham-240/Task1--FunctionsPlotter/blob/main/examples/function%20with%20spaces.PNG)
+  - Min value of x is empty.
+    - ![](https://github.com/Mohamed-Hesham-240/Task1--FunctionsPlotter/blob/main/examples/empty%20min.PNG)
+  - Max value of x is empty.
+    - ![](https://github.com/Mohamed-Hesham-240/Task1--FunctionsPlotter/blob/main/examples/empty%20max.PNG)
+  - Function expression is empty.
+    - ![](https://github.com/Mohamed-Hesham-240/Task1--FunctionsPlotter/blob/main/examples/empty%20function.PNG)
+  - Max and max values of x are empty.
+    - ![](https://github.com/Mohamed-Hesham-240/Task1--FunctionsPlotter/blob/main/examples/empty%20max%20and%20min.PNG)
+  - A simple inverse proportion function.
+    - ![](https://github.com/Mohamed-Hesham-240/Task1--FunctionsPlotter/blob/main/examples/1%20x.PNG)
